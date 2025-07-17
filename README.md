@@ -21,3 +21,5 @@ The js reads all the files in the songs directory, each file in songs directory 
 - Display current songs's name on the playbar
 - Play any song in current album
 
+## Preview
+<img width="1919" height="1012" alt="image" src="https://github.com/user-attachments/assets/4b093e56-1abc-48db-acf7-7bdfd2384981" />

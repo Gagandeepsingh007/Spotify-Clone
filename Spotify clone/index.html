@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOTIFY CLONE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left flex fcolm">
+            <div class="close">
+                <img height="20px" src="img/close.svg" class="color-invert" alt="no img">
+            </div>
+            <ul class="upper-left flex fcolm bg-grey">
+                <li><img src="img/logo.svg" class="color-invert"></li>
+                <li class="flex items-align"><img class="color-invert" src="img/home.svg"> <span
+                        class="white font18">Home</span></li>
+                <li class="flex items-align hover"><img src="img/search.svg"> <span class="font18">Search</span></li>
+            </ul>
+            <div class="lower-left bg-grey">
+                <div class="flex items-align">
+                    <div class="flex items-align hover">
+                        <img src="img/yourlib.svg" class="imgmargin" alt=""><span class="font18">Your
+                            Library</span>
+                    </div>
+                    <img src="img/plussign.svg" class="color-invert imgmargin">
+                </div>
+                <div class="lower-left-content">
+                    <!-- <div class="flex fcolm">
+                        <span class="white font18 bold">Create your first playlist</span>
+                        <span class="white">It's easy, we'll help you</span>
+                        <button class="bold">Create playist</button>
+                    </div>
+                    <div class="flex fcolm">
+                        <span class="white font18 bold">Let's find some podcasts to follow</span>
+                        <span class="white">We'll keep you updated on new episodes</span>
+                        <button class="bold">Browse Podcasts</button>
+                    </div> -->
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <div classs="flex"></div>
+                <section>
+                    <div>
+                        <a href="">Safety & Privacy Center</a>
+                        <a href="">Privacy Policy</a>
+                        <a href="">About Ads</a>
+                        <a href="">Cookies</a>
+                    </div>
+                </section>
+                <button class="white flex justify-content items-align"><img class="color-invert" src="img/globe.svg"
+                        alt="">English</button>
+            </div>
+        </div>
+        <div class="right flex white bg-grey">
+            <div class="nav white flex bg-grey">
+                <div class="flex items-align">
+                    <div class="hamburger color-invert">
+                        <img src="img/hamburger.svg" alt="">
+                    </div>
+                    <img src="img/arrow.svg">
+                    <img src="img/arrow.svg">
+                </div>
+                <div class="buttons flex items-align">
+                    <button class="bg-grey bold font18">Sign up</button>
+                    <button class=" bold font18">Log in</button>
+                </div>
+            </div>
+            <div class="songsalbum flex">
+
+                <div data-folder="one" class="card white">
+                    <img src="img/diljit.jpeg" alt="No image">
+                    <button class="play-button"><img src="img/playbutton.svg" alt=""></button>
+                    <div class="title">ONE</div>
+                    <div class="artist">DILJIT</div>
+                </div>
+                <div data-folder="two" class="card white">
+                    <img src="img/diljit.jpeg" alt="No image">
+                    <button class="play-button"><img src="img/playbutton.svg" alt=""></button>
+                    <div class="title">TWO</div>
+                    <div class="artist">DILJIT</div>
+                </div>
+                <div data-folder="three" class="card white">
+                    <img src="img/diljit.jpeg" alt="No image">
+                    <button class="play-button"><img src="img/playbutton.svg" alt=""></button>
+                    <div class="title">THREE</div>
+                    <div class="artist">DILJIT</div>
+                </div>
+                <div data-folder="four" class="card white">
+                    <img src="img/diljit.jpeg" alt="No image">
+                    <button class="play-button"><img src="img/playbutton.svg" alt=""></button>
+                    <div class="title">FOUR</div>
+                    <div class="artist">DILJIT</div>
+                </div>
+                
+            </div>
+            <div class="playbar flex">
+                <div class="seekbar">
+                    <div class="circle"></div>
+                </div>
+                <div class="songinfo">
+
+                </div>
+                <div class="playbarnav flex items-align">
+                    <img id="previous" src="img/next-stroke-rounded.svg" alt="no img" class="prevarrow">
+                    <img id="play" src="img/playbutton.svg" alt="no img" class="playbutton">
+                    <img id="next" src="img/next-stroke-rounded.svg" alt="no img" class="nextarrow">
+                </div>
+                <div class="playbar-right flex items-align">
+
+                    <div class="songtime">
+                        
+                    </div>
+                    <div class="volume flex items-align">
+                        <img src="img/volume.svg" alt="">
+                        <div class="range">
+                            <input type="range" name="volume-range">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

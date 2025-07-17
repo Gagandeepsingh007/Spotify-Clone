@@ -23,4 +23,5 @@ The js reads all the files in the songs directory, each file in songs directory 
 - Volume Controls
 
 ## Preview
-<img width="1919" height="1012" alt="image" src="https://github.com/user-attachments/assets/4b093e56-1abc-48db-acf7-7bdfd2384981" />
+<img width="1919" height="1000" alt="image" src="https://github.com/user-attachments/assets/e411a08a-3866-4011-ba81-f0666187a8ac" />
+
